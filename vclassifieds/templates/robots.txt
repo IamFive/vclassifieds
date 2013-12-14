@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /m
+Disallow: /static
+Sitemap: http://www.mailoop.com/sitemap_baidu.xml

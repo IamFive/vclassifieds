@@ -1,0 +1,32 @@
+db.user.insert({
+    "_id": ObjectId("51935e85afc358255c817bf3"),
+    "status": 1,
+    "password": "passwd",
+    "verify_code": "mahkgF",
+    "email": "initial@abc.com"
+});
+
+db.sale.insert({
+    "status": 1,
+    "title": "sample 1",
+    "description": "this is description",
+    "tags": ["tag1"]
+});
+db.sale.insert({
+    "status": 1,
+    "title": "sample 2",
+    "description": "this is description",
+    "tags": ["tag1", "tag2"]
+});
+db.sale.insert({
+    "status": 1,
+    "title": "sample 3",
+    "description": "this is description",
+    "tags": ["tag3"]
+});
+db.sale.insert({
+    "status": 1,
+    "title": "sample 4",
+    "description": "this is description",
+    "tags": ["tag-aa"]
+});

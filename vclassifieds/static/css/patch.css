@@ -1,0 +1,42 @@
+body {
+	padding-top: 70px;
+}
+
+.ellipsis {
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.h8 {
+	height: 8px;
+	width: 100%;
+}
+
+.mt0 {
+	margin-top: 0px;
+}
+
+.mb4 {
+	margin-bottom: 4px;
+}
+
+.mb6 {
+	margin-bottom: 6px;
+}
+
+.mb12 {
+    margin-bottom: 12px;
+}
+
+.mb20 {
+    margin-bottom: 20px;
+}
+
+.ml10 {
+    margin-left: 10px;
+}
+
+.mt20 {
+	margin-top: 20px;
+}

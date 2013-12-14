@@ -1,0 +1,16 @@
+{% extends "basic.html" %} 
+{% block title %}
+	Something unexcept happen.
+{% endblock title %}
+{% block content %}
+    <div class="alert alert-block">
+    	<h4>Something wrong happen, you should check the message blew:</h4>
+    	<div style='margin-top:20px'>Error code:  <strong>{{error.code}}</strong></div>
+    	<div>
+    		<p>Error details:</p>
+    		{% for msg in error.msg_list %}
+    			<p><span class="badge">{{loop.index }}</span> {{msg}}</p>
+    		{% endfor %}
+    	</div>
+    </div>
+{% endblock %}

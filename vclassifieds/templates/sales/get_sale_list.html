@@ -1,0 +1,20 @@
+{% extends "basic.html" %} {% block content %}
+<div class="row">
+	{% for sale in sales %}
+	<div class='col-md-3'>
+		<div class="panel panel-default">
+			<div class="panel-heading">{{sale.title}}</div>
+			<div class="panel-body">
+				{{sale.description}}
+			</div>
+			<div class="panel-footer">
+				Tags:
+				{% for tag in sale.tags %} 
+			           <span class="label label-primary">{{tag}}</span>{% if not loop.last %}{% endif %}
+				{% endfor %}
+			</div>
+		</div>
+	</div>
+	{% endfor %}
+</div>
+{% endblock %}
